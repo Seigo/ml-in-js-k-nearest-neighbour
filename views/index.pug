@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  //- h1= title
+  p Welcome to #{title}
+
+  canvas(
+    id='canvas'
+    width=400
+    height=400
+  )
+
+  script(type='text/javascript' src='http://localhost:3000/js/node.js')
+  script(type='text/javascript' src='http://localhost:3000/js/nodelist.js')
+  script(type='text/javascript' src='http://localhost:3000/js/data.js')
+  script(type='text/javascript' src='http://localhost:3000/js/exercise.js')
